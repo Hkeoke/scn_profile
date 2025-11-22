@@ -1,0 +1,103 @@
+{
+  "title": "About Me",
+  "aboutMe": {
+    "hello": "Hello, I'm Victor Manuel Abad Pereda",
+    "description": "Hello! I'm {{name}}, a Fullstack Developer with +{{years}} years of experience and a degree in Computer Science Engineering (2023).\nSpecialized in frontend with <primary>React.js, TypeScript, and Next.js</primary>, I've developed efficient <primary>backoffices</primary> and scalable <primary>e-commerce</primary> solutions, applying componentization, performance optimization, and development best practices.\nWith a fullstack vision and a focus on quality and scalability, I create robust technical solutions that drive business impact. I'm passionate about continuous learning and sharing knowledge to foster technological growth.",
+    "summary": {
+      "age": "Age",
+      "freelance": "Freelance",
+      "residence": "Residence",
+      "address": "Address"
+    }
+  },
+  "my_service": {
+    "title": "My Services",
+    "services": {
+      "service_1": {
+        "title": "Front-End Development",
+        "description": "Modern and responsive web applications with React.js, Next.js, and TypeScript, optimized for an excellent user experience on any device."
+      },
+      "service_2": {
+        "title": "Back-End Development",
+        "description": "Scalable and secure APIs with NestJS, focused on data management, authentication, and business logic."
+      },
+      "service_3": {
+        "title": "Full Stack Development",
+        "description": "Complete solutions integrating front-end (React, Next.js) and back-end (NestJS) with high performance, best practices, and optimized SEO."
+      },
+      "service_4": {
+        "title": "Static Websites with Astro",
+        "description": "Fast and SEO-optimized websites with Astro, ideal for lightweight content and high performance."
+      },
+      "service_5": {
+        "title": "API Development & Integration",
+        "description": "Custom REST and GraphQL APIs to efficiently connect services and enhance application functionality."
+      }
+    }
+  },
+  "payment_plans": {
+    "title": "Pricing",
+    "plans": {
+      "basic": {
+        "title": "Basic Plan",
+        "price": "$25",
+        "description": "For small and fast websites.",
+        "services": [
+          "Static sites with Astro",
+          "Performance optimization",
+          "SEO and accessibility improvements",
+          "Basic API integration",
+          "Responsive design",
+          "Basic technical support"
+        ],
+        "icon": "✨"
+      },
+      "standard": {
+        "title": "Standard Plan",
+        "price": "$35",
+        "description": "For web applications with APIs and databases.",
+        "services": [
+          "Front-End with React & Next.js",
+          "Back-End with NestJS",
+          "REST & GraphQL APIs",
+          "Load optimization",
+          "SQL & NoSQL databases",
+          "Basic authentication"
+        ],
+        "icon": "⚡"
+      },
+      "premium": {
+        "title": "Premium Plan",
+        "price": "$48",
+        "description": "Complete solution for scalable applications.",
+        "services": [
+          "Full Stack with Next.js & NestJS",
+          "Advanced SEO & performance",
+          "Custom APIs",
+          "Advanced authentication",
+          "Database management",
+          "Cloud deployment",
+          "Maintenance & monitoring",
+          "Premium support"
+        ],
+        "icon": "🚀"
+      },
+      "enterprise": {
+        "title": "Enterprise Plan",
+        "price": "$50",
+        "description": "For Web3, blockchain, and large-scale projects.",
+        "services": [
+          "Full Stack with Next.js & NestJS",
+          "High-traffic scalability",
+          "Web3 & Smart Contracts",
+          "ERC-20 Tokens",
+          "NFT Marketplaces",
+          "Wallet integration",
+          "Security & auditing",
+          "Premium support"
+        ],
+        "icon": "🏆"
+      }
+    }
+  }
+}

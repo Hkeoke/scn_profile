@@ -1,0 +1,7 @@
+ .neon-cursor-container {
+   @apply fixed top-0 left-0 w-full h-full pointer-events-none z-[9999];
+ }
+
+ .cursor-trail {
+   @apply fixed w-12 h-12 rounded-full bg-transparent border-2 border-primary mix-blend-screen pointer-events-none;
+ }

@@ -1,0 +1,36 @@
+{
+  "country": "Cuban",
+  "address": "Havana, Cuba",
+  "present": "Present",
+  "hour": "hour",
+  "orderNow": "Order now",
+  "porfolio": "Portfolio",
+  "send": "Send",
+  "contactMe": "Contact me",
+  "downloadCV": "Download CV",
+  "successOperation": "Operation completed",
+  "sendEmailSuccess": "Email sent successfully",
+  "showMore": "Show more",
+  "languages": {
+    "es": "Spanish",
+    "en": "English"
+  },
+  "mode": {
+    "dark": "Dark theme",
+    "light": "Light theme"
+  },
+  "menu": {
+    "about": "About",
+    "resumen": "Resume",
+    "works": "Works",
+    "contact": "Contact",
+    "blog": "Blog",
+    "products": "Products"
+  },
+  "roles": ["Front-end Developer", "Programmer", "Freelancer", "Software Engineer", "UI/UX Designer"],
+  "construction": {
+    "cite": "Site Under Construction",
+    "message": "Sorry, this section is under construction. Please come back soon.",
+    "contact": "Questions? Contact us:"
+  }
+}

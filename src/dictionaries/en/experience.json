@@ -1,0 +1,18 @@
+{
+  "title": "Work Experience",
+  "experiences": [
+    {
+      "dateRange": {
+        "from": "2022-06-01",
+        "to": null
+      },
+      "jobTitle": "Software Developer",
+      "companyName": "XETID",
+      "description": [
+        "Worked on projects using technologies such as <primary>PHP and Ext JS 2.2</primary>. Additionally, developed mobile applications using <primary>Flutter and React Native</primary>."
+      ],
+      "isButtonVisible": false,
+      "address": "Havana, Cuba"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+@theme {
+  --animate-cursor-wiggle: cursor-wiggle 0.3s ease-in-out infinite;
+
+  @keyframes cursor-wiggle {
+
+    0%,
+    100% {
+      transform: rotate(-5deg);
+    }
+
+    50% {
+      transform: rotate(5deg);
+    }
+  }
+
+
+}

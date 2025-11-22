@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Lekton";
+  font-weight: 600; /* Bold */
+  font-style: normal;
+  font-display: fallback;
+  src: url("../../fonts/Lekton-Bold.ttf") format("truetype"); /* Formato corregido */
+}
+
+@font-face {
+  font-family: "Lekton";
+  font-weight: normal; /* Peso normal */
+  font-style: italic; /* Estilo corregido */
+  font-display: fallback;
+  src: url("../../fonts/Lekton-Italic.ttf") format("truetype"); /* Formato corregido */
+}
+
+@font-face {
+  font-family: "Lekton";
+  font-weight: normal; /* Regular */
+  font-style: normal;
+  font-display: fallback;
+  src: url("../../fonts/Lekton-Regular.ttf") format("truetype"); /* Formato corregido */
+}

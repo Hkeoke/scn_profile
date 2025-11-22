@@ -1,0 +1,74 @@
+/* En tu archivo CSS */
+@layer utilities {
+
+  .card {
+    @apply bg-card text-card-foreground flex flex-col gap-6 rounded-md border py-6 shadow-sm
+  }
+
+  .ovalo {
+    @apply relative
+  }
+
+  .ovalo::before {
+    content: '';
+    @apply absolute w-full h-[200px] left-0 bg-card scale-x-125 rounded-full -top-12 -z-10
+  }
+
+
+  .profile-avatar {
+    @apply w-24 h-24 lg:h-28 lg:w-28 relative
+  }
+
+  .profile-avatar::before {
+    content: '';
+    @apply w-24 h-24 lg:h-28 lg:w-28 bg-gradient-to-b from-primary/60 to-primary/30 absolute top-1 -left-2 rounded-full
+  }
+
+
+
+  .button-rectangle {
+    @apply !min-h-20 p-2 rounded-none hover:bg-transparent hover:text-primary hover:cursor-pointer
+  }
+
+  .fade-line-left, .fade-line-top, .fade-line-bottom {
+    @apply relative;
+  }
+
+  .fade-line-top::before {
+    @apply absolute w-full h-px top-0 left-0 content-[''];
+    background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  }
+
+  .fade-line-bottom::before {
+    @apply absolute w-full h-px bottom-0 left-0 content-[''];
+    background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  }
+
+  .fade-line-left::before {
+
+    @apply absolute w-px h-full top-0 left-0 content-[''];
+    background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+  }
+
+  .cycle::before {
+    @apply absolute w-8 h-8 top-1 left-2.5 content-[''] bg-gradient-to-br from-primary/80 to-card rounded-full opacity-50;
+  }
+
+  .line::before {
+    @apply absolute w-10 h-1 -bottom-1 left-0 bg-secondary content-[''];
+  }
+
+
+  .summary-bg {
+    @apply relative
+  }
+
+  .summary-bg::before {
+    @apply absolute -top-2 -left-2 lg:top-3 lg:-left-3 -z-20 bg-primary/15 w-full h-full content-[''] rounded-md
+  }
+
+
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Summary",
+  "section": {
+    "experience": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "quote": "Quote"
+  },
+  "skills": {
+    "code": "Coding",
+    "knowledge": "Knowledge",
+    "tools": "Tools",
+    "languages": "Languages"
+  },
+  "knowledge": [
+    "Website hosting",
+    "SEO optimization",
+    "Responsive design",
+    "HTML, CSS3, TypeScript",
+    "Static and dynamic websites",
+    "Clean architecture",
+    "Performance optimization",
+    "Micro Frontends",
+    "Server-side rendering",
+    "Microservices",
+    "Version control (Git)"
+  ],
+  "types": {
+    "All": "All",
+    "Backend": "Backend",
+    "Frontend": "Frontend",
+    "Database": "Database",
+    "Mobile": "Mobile",
+    "Tool": "Tool",
+    "Language": "Language",
+    "Library": "Library",
+    "Framework": "Framework",
+    "Software": "Software",
+    "Other": "Other",
+    "Ai": "Artificial Intelligence"
+  },
+  "quote": {
+    "quote": "Talk is cheap. Show me the code.",
+    "rol": "Creator of Linux and Git"
+  },
+  "language": [
+    {
+      "name": "Spanish",
+      "level": 10
+    },
+    {
+      "name": "English",
+      "level": 4
+    }
+  ]
+}

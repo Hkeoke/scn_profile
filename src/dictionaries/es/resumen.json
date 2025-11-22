@@ -1,0 +1,56 @@
+{
+  "title": "Resumen",
+  "section": {
+    "experience": "Experiencia Laboral",
+    "education": "Educación",
+    "skills": "Habilidades",
+    "quote": "Cita"
+  },
+  "skills": {
+    "code": "Codificación",
+    "knowledge": "Conocimiento",
+    "tools": "Herramientas",
+    "languages": "Lenguaje"
+  },
+  "knowledge": [
+    "Alojamiento de sitios web",
+    "Optimización SEO",
+    "Diseño responsivo",
+    "HTML, CSS3, Typescript",
+    "Sitios web estáticos y dinámicos",
+    "Arquitectura limpia",
+    "Optimización de rendimiento",
+    "Micro Front-ends",
+    "Renderizado del lado del servidor",
+    "Micro-servicios",
+    "Control de versiones (Git)"
+  ],
+  "types": {
+    "All": "Todos",
+    "Backend": "Backend",
+    "Frontend": "Frontend",
+    "Database": "Base de datos",
+    "Mobile": "Móvil",
+    "Tool": "Herramienta",
+    "Language": "Lenguaje",
+    "Library": "Librería",
+    "Framework": "Framework",
+    "Software": "Software",
+    "Other": "Otro",
+    "Ai": "Inteligencia artificial"
+  },
+  "quote": {
+    "quote": "Hablar es barato. Enséñame el código.",
+    "rol": "Creador de Linux y Git"
+  },
+  "language": [
+    {
+      "name": "Español",
+      "level": 10
+    },
+    {
+      "name": "Inglés",
+      "level": 4
+    }
+  ]
+}

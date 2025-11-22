@@ -1,0 +1,15 @@
+{
+  "title": "Education",
+  "educations": [
+    {
+      "dateRange": {
+        "from": "2018-09-01",
+        "to": "2023-12-01"
+      },
+      "jobTitle": "Computer Science Engineer",
+      "companyName": "University of Computer Sciences",
+      "description": "Graduated as a Computer Science Engineer in 2023 from the University of Computer Sciences in Havana, Cuba",
+      "isButtonVisible": false
+    }
+  ]
+}

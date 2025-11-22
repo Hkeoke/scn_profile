@@ -1,0 +1,5 @@
+{
+  "required": "Required field",
+  "min-4": "Must be at least 4 characters long",
+  "max-500": "Cannot exceed 500 characters"
+}

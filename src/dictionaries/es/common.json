@@ -1,0 +1,36 @@
+{
+  "country": "Cuba",
+  "address": "La Habana, Cuba",
+  "present": "Actualidad",
+  "hour": "hora",
+  "orderNow": "Ordena ahora",
+  "porfolio": "Portafolio",
+  "send": "Enviar",
+  "contactMe": "Contácteme",
+  "downloadCV": "Descargar CV",
+  "successOperation": "Operación completada",
+  "sendEmailSuccess": "Correo enviado satisfactoriamente",
+  "showMore": "Ver más",
+  "languages": {
+    "es": "Español",
+    "en": "Inglés"
+  },
+  "mode": {
+    "dark": "Tema oscuro",
+    "light": "Tema claro"
+  },
+  "menu": {
+    "about": "Acerca de",
+    "resumen": "Resumen",
+    "works": "Trabajos",
+    "contact": "Contacto",
+    "blog": " Blog",
+    "products": "Productos"
+  },
+  "roles": ["Desarrollador Front-end", "Programador", "Freelance", "Ingeniero de Software", "Diseñador UI/UX"],
+  "construction": {
+    "cite": "Sitio en Construcción",
+    "message": "Lo sentimos, esta sección se encuentra en construcción. Por favor, vuelva pronto.",
+    "contact": "¿Preguntas? Contáctenos:"
+  }
+}

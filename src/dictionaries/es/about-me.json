@@ -1,0 +1,103 @@
+{
+  "title": "Acerca de mi",
+  "aboutMe": {
+    "hello": "Hola, soy Victor Manuel Abad Pereda",
+    "description": "¡Hola! Soy {{name}}, Desarrollador Fullstack con +{{years}} años de experiencia y formación en Ingeniería en Ciencias Informáticas (2023).\nEspecializado en frontend con <primary>React.js, TypeScript y Next.js</primary>, he desarrollado <primary>backoffices</primary> eficientes y <primary>e-commerces</primary> escalables, aplicando componentización, optimización de rendimiento y buenas prácticas de desarrollo.\nCon una visión fullstack y un enfoque en calidad y escalabilidad, creo soluciones técnicas sólidas que generan impacto en el negocio. Me motiva el aprendizaje continuo y compartir conocimiento para potenciar el crecimiento tecnológico.",
+    "summary": {
+      "age": "Edad",
+      "freelance": "Freelance",
+      "residence": "Residente",
+      "address": "Dirección"
+    }
+  },
+  "my_service": {
+    "title": "Mis servicios",
+    "services": {
+      "service_1": {
+        "title": "Desarrollo Front-End",
+        "description": "Aplicaciones web modernas y responsivas con React.js, Next.js y Typescript, optimizadas para una excelente experiencia de usuario en cualquier dispositivo."
+      },
+      "service_2": {
+        "title": "Desarrollo Back-End",
+        "description": "APIs escalables y seguras con NestJS, enfocadas en la gestión de datos, autenticación y lógica de negocio."
+      },
+      "service_3": {
+        "title": "Desarrollo Full Stack",
+        "description": "Soluciones completas que integran front-end (React, Next.js) y back-end (NestJS) con alto rendimiento y buenas prácticas, SEO optimizado."
+      },
+      "service_4": {
+        "title": "Sitios Web Estáticos con Astro",
+        "description": "Sitios web rápidos y optimizados para SEO con Astro, ideales para contenido ligero y alto rendimiento."
+      },
+      "service_5": {
+        "title": "Desarrollo e Integración de APIs",
+        "description": "APIs REST y GraphQL personalizadas para conectar servicios de manera eficiente y mejorar la funcionalidad de las aplicaciones."
+      }
+    }
+  },
+  "payment_plans": {
+    "title": "Precios",
+    "plans": {
+      "basic": {
+        "title": "Plan Básico",
+        "price": "$25",
+        "description": "Para sitios web pequeños y rápidos.",
+        "services": [
+          "Sitios estáticos con Astro",
+          "Optimización de rendimiento",
+          "Mejoras en SEO y accesibilidad",
+          "Integración de APIs básicas",
+          "Diseño responsivo",
+          "Soporte técnico básico"
+        ],
+        "icon": "✨"
+      },
+      "standard": {
+        "title": "Plan Estándar",
+        "price": "$35",
+        "description": "Para aplicaciones web con APIs y bases de datos.",
+        "services": [
+          "Front-End con React y Next.js",
+          "Back-End con NestJS",
+          "APIs REST y GraphQL",
+          "Optimización de carga",
+          "Bases de datos SQL y NoSQL",
+          "Autenticación básica"
+        ],
+        "icon": "⚡"
+      },
+      "premium": {
+        "title": "Plan Premium",
+        "price": "$48",
+        "description": "Solución completa para aplicaciones escalables.",
+        "services": [
+          "Full Stack con Next.js y NestJS",
+          "SEO y rendimiento avanzados",
+          "APIs personalizadas",
+          "Autenticación avanzada",
+          "Gestión de bases de datos",
+          "Despliegue en la nube",
+          "Mantenimiento y monitoreo",
+          "Soporte premium"
+        ],
+        "icon": "🚀"
+      },
+      "enterprise": {
+        "title": "Plan Empresarial",
+        "price": "$50",
+        "description": "Para proyectos con Web3, blockchain y gran escala.",
+        "services": [
+          "Full Stack con Next.js y NestJS",
+          "Escalabilidad para alto tráfico",
+          "Web3 y Smart Contracts",
+          "Tokens ERC-20",
+          "Marketplaces de NFTs",
+          "Integración de wallets",
+          "Seguridad y auditoría",
+          "Soporte premium"
+        ],
+        "icon": "🏆"
+      }
+    }
+  }
+}

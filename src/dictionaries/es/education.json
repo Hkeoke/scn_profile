@@ -1,0 +1,16 @@
+{
+  "title": "Educación",
+  "educations": [
+    {
+      "dateRange": {
+        "from": "2018-09-01",
+        "to": "2023-12-01"
+      },
+      "jobTitle": "Ingeniero en Ciencias Informáticas",
+      "companyName": "Universidad de Ciencias Informáticas",
+      "description": "Graduado de Ingeniero en Ciencias Informáticas el 2023 en la Universidad de Ciencias Informáticas de la Habana, Cuba",
+      "isButtonVisible": false,
+      "address": "Habana, Cuba"
+    }
+  ]
+}

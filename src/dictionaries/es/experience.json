@@ -1,0 +1,18 @@
+{
+  "title": "Experiencia Laboral",
+  "experiences": [
+    {
+      "dateRange": {
+        "from": "2022-06-01",
+        "to": null
+      },
+      "jobTitle": "Desarrollador de Software",
+      "companyName": "XETID",
+      "description": [
+        "Trabajé en proyectos utilizando tecnologías como <primary>PHP y Ext JS 2.2</primary>. Además, desarrollé aplicaciones móviles utilizando <primary>Flutter y React Native</primary>."
+      ],
+      "isButtonVisible": false,
+      "address": "La Habana, Cuba"
+    }
+  ]
+}
