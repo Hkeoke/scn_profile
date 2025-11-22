@@ -6,7 +6,7 @@ const config = {
 
     //metadata
     app: {
-      url: 'https://portfolio-vicdevpro.netlify.app',
+      url: process.env.NEXT_PUBLIC_APP_URL! || 'http://localhost:3000',
       name: process.env.NEXT_PUBLIC_APP_NAME! || 'SCN_PROFILE'
     }
   }
