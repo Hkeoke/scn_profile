@@ -1,16 +1,9 @@
-import { NextRequest, NextResponse } from "next/server";
-import { renderToStream } from "@react-pdf/renderer";
-import { CvTemplate } from "@/components/cv/cv-template";
-import initTranslations from "@/app/i18n";
+import { NextRequest, NextResponse } from 'next/server';
+import { renderToStream } from '@react-pdf/renderer';
+import { CvTemplate } from '@/components/cv/cv-template';
+import initTranslations from '@/app/i18n';
 
-const i18nNamespaces = [
-  "common",
-  "errors",
-  "about-me",
-  "experience",
-  "education",
-  "resumen",
-];
+const i18nNamespaces = ['common', 'errors', 'about-me', 'experience', 'education', 'resumen'];
 export async function POST(request: NextRequest) {
   const { locale } = await request.json();
   try {
@@ -29,16 +22,13 @@ export async function POST(request: NextRequest) {
     }
     const buffer = Buffer.concat(chunks);
 
-    return new NextResponse(buffer, {
+    return new NextResponse(buffer as unknown as BodyInit, {
       headers: {
-        "Content-Type": "application/pdf",
-        "Content-Disposition": `attachment; filename="cv-${locale}.pdf"`,
-      },
+        'Content-Type': 'application/pdf',
+        'Content-Disposition': `attachment; filename="cv-${locale}.pdf"`
+      }
     });
   } catch {
-    return NextResponse.json(
-      { error: "Error generating PDF" },
-      { status: 500 },
-    );
+    return NextResponse.json({ error: 'Error generating PDF' }, { status: 500 });
   }
 }
