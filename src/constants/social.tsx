@@ -8,27 +8,27 @@ import LinkedinIcon from '@/components/icons/social/linkedin';
 export const socials: ISocial[] = [
   {
     icon: <WhatsApp />,
-    href: 'https://wa.me/5354260322',
+    href: 'https://wa.me/5354137564',
     label: 'WhatsApp'
   },
   {
     icon: <Instagram />,
-    href: '',
+    href: 'https://www.instagram.com/vik__99__',
     label: 'Instagram'
   },
-  {
+  /*{
     icon: <LinkedinIcon />,
     href: '',
     label: 'Linkedin'
-  },
+  },*/
   {
     icon: <Github />,
-    href: '',
+    href: 'https://gitlab.com/Hkeoke',
     label: 'Github'
-  },
-  {
+  }
+  /* {
     icon: <GitLab />,
     href: 'https://gitlab.com/Hkeoke',
     label: 'GitLab'
-  }
+  }*/
 ];
