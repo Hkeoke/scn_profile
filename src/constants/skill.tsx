@@ -1,3 +1,4 @@
+import AngularIcon from '@/components/icons/services/angular-icon';
 import AstroIcon from '@/components/icons/services/astro-icon';
 import ChatGPTIcon from '@/components/icons/services/chat-gpt-icon';
 import ClaudeAI from '@/components/icons/services/claude-ai-icon';
@@ -6,6 +7,7 @@ import DockerIcon from '@/components/icons/services/docker-icon';
 import DrizzleORMIcon from '@/components/icons/services/drizzle-orm-icon';
 import ExpoIcon from '@/components/icons/services/expo-icon';
 import ExpressjsIcon from '@/components/icons/services/expresjs-icon';
+import FlutterIcon from '@/components/icons/services/flutter-icon';
 import GitIcon from '@/components/icons/services/git-icon';
 import GithubIcon from '@/components/icons/services/github-icon';
 import GitLabIcon from '@/components/icons/services/gitlab-icon';
@@ -67,9 +69,11 @@ export const codingSkills: SkillProps[] = [
   { name: 'Nodejs', percentage: 85, icon: <NodeIcon />, type: SkillType.Backend },
   { name: 'Reactjs', percentage: 90, icon: <ReactIcon />, type: SkillType.Frontend },
   { name: 'Nextjs', percentage: 85, icon: <NextIcon />, type: SkillType.Frontend },
+  { name: 'Angular', percentage: 80, icon: <AngularIcon />, type: SkillType.Frontend },
   { name: 'Astro', percentage: 70, icon: <AstroIcon />, type: SkillType.Frontend },
   { name: 'Tailwind / Mui', percentage: 80, icon: <TailwindIcon />, type: SkillType.Frontend },
   { name: 'React Native / Expo', percentage: 80, icon: <ExpoIcon />, type: SkillType.Mobile },
+  { name: 'Flutter', percentage: 75, icon: <FlutterIcon />, type: SkillType.Mobile },
   { name: 'Supabase', percentage: 70, icon: <SupabaseIcon />, type: SkillType.Database },
   { name: 'Typescript', percentage: 60, icon: <TypeScriptIcon />, type: SkillType.Language },
   { name: 'Javascript', percentage: 60, icon: <JavaScriptIcon />, type: SkillType.Language },

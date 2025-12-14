@@ -1,5 +1,7 @@
+import AngularIcon from '@/components/icons/services/angular-icon';
 import AstroIcon from '@/components/icons/services/astro-icon';
 import BlockIcon from '@/components/icons/services/block-icon';
+import FlutterIcon from '@/components/icons/services/flutter-icon';
 import GraphQlIcon from '@/components/icons/services/graphql-icon';
 import NestIcon from '@/components/icons/services/nest-icon';
 import NextIcon from '@/components/icons/services/next-icon';
@@ -27,15 +29,19 @@ export const SERVICES: IAboutMeService[] = [
     description: 'my_service.services.service_4.description',
     icon: <AstroIcon />
   },
-
-  /* {
-    title: "my_service.services.service_6.title",
-    description: "my_service.services.service_6.description",
-    icon: <SeoIcon />
-  }, */
   {
     title: 'my_service.services.service_5.title',
     description: 'my_service.services.service_5.description',
     icon: <BlockIcon />
+  },
+  {
+    title: 'my_service.services.service_6.title',
+    description: 'my_service.services.service_6.description',
+    icon: <AngularIcon />
+  },
+  {
+    title: 'my_service.services.service_7.title',
+    description: 'my_service.services.service_7.description',
+    icon: <FlutterIcon />
   }
 ];

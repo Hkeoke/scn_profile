@@ -2,7 +2,7 @@
   "title": "About Me",
   "aboutMe": {
     "hello": "Hello, I'm Victor Manuel Abad Pereda",
-    "description": "Hello! I'm {{name}}, a Fullstack Developer with +{{years}} years of experience and a degree in Computer Science Engineering (2023).\nSpecialized in frontend with <primary>React.js, TypeScript, and Next.js</primary>, I've developed efficient <primary>backoffices</primary> and scalable <primary>e-commerce</primary> solutions, applying componentization, performance optimization, and development best practices.\nWith a fullstack vision and a focus on quality and scalability, I create robust technical solutions that drive business impact. I'm passionate about continuous learning and sharing knowledge to foster technological growth.",
+    "description": "Hello! I'm {{name}}, a Fullstack Developer with +{{years}} years of experience and a degree in Computer Science Engineering (2023).\nSpecialized in frontend with <primary>React.js, Angular, TypeScript, and Next.js</primary>, and mobile development with <primary>Flutter and React Native</primary>, I've developed efficient <primary>backoffices</primary>, scalable <primary>e-commerce</primary> solutions, and cross-platform mobile applications, applying componentization, performance optimization, and development best practices.\nWith a fullstack vision and a focus on quality and scalability, I create robust technical solutions that drive business impact. I'm passionate about continuous learning and sharing knowledge to foster technological growth.",
     "summary": {
       "age": "Age",
       "freelance": "Freelance",
@@ -32,6 +32,14 @@
       "service_5": {
         "title": "API Development & Integration",
         "description": "Custom REST and GraphQL APIs to efficiently connect services and enhance application functionality."
+      },
+      "service_6": {
+        "title": "Angular Development",
+        "description": "Robust and scalable enterprise web applications with Angular, TypeScript, and modular architecture, ideal for large-scale projects."
+      },
+      "service_7": {
+        "title": "Mobile Development with Flutter",
+        "description": "Cross-platform native mobile applications (iOS and Android) with Flutter, delivering high performance, attractive design, and a single codebase."
       }
     }
   },

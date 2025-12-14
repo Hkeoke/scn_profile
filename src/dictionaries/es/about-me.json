@@ -2,7 +2,7 @@
   "title": "Acerca de mi",
   "aboutMe": {
     "hello": "Hola, soy Victor Manuel Abad Pereda",
-    "description": "¡Hola! Soy {{name}}, Desarrollador Fullstack con +{{years}} años de experiencia y formación en Ingeniería en Ciencias Informáticas (2023).\nEspecializado en frontend con <primary>React.js, TypeScript y Next.js</primary>, he desarrollado <primary>backoffices</primary> eficientes y <primary>e-commerces</primary> escalables, aplicando componentización, optimización de rendimiento y buenas prácticas de desarrollo.\nCon una visión fullstack y un enfoque en calidad y escalabilidad, creo soluciones técnicas sólidas que generan impacto en el negocio. Me motiva el aprendizaje continuo y compartir conocimiento para potenciar el crecimiento tecnológico.",
+    "description": "¡Hola! Soy {{name}}, Desarrollador Fullstack con +{{years}} años de experiencia y formación en Ingeniería en Ciencias Informáticas (2023).\nEspecializado en frontend con <primary>React.js, Angular, TypeScript y Next.js</primary>, y desarrollo móvil con <primary>Flutter y React Native</primary>, he desarrollado <primary>backoffices</primary> eficientes, <primary>e-commerces</primary> escalables y aplicaciones móviles multiplataforma, aplicando componentización, optimización de rendimiento y buenas prácticas de desarrollo.\nCon una visión fullstack y un enfoque en calidad y escalabilidad, creo soluciones técnicas sólidas que generan impacto en el negocio. Me motiva el aprendizaje continuo y compartir conocimiento para potenciar el crecimiento tecnológico.",
     "summary": {
       "age": "Edad",
       "freelance": "Freelance",
@@ -32,6 +32,14 @@
       "service_5": {
         "title": "Desarrollo e Integración de APIs",
         "description": "APIs REST y GraphQL personalizadas para conectar servicios de manera eficiente y mejorar la funcionalidad de las aplicaciones."
+      },
+      "service_6": {
+        "title": "Desarrollo con Angular",
+        "description": "Aplicaciones web empresariales robustas y escalables con Angular, TypeScript y arquitectura modular, ideales para proyectos de gran envergadura."
+      },
+      "service_7": {
+        "title": "Desarrollo Móvil con Flutter",
+        "description": "Aplicaciones móviles nativas multiplataforma (iOS y Android) con Flutter, ofreciendo alto rendimiento, diseño atractivo y una sola base de código."
       }
     }
   },
