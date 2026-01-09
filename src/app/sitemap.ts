@@ -1,17 +1,19 @@
 // app/sitemap.ts
-import { menu_links } from "@/constants/menu";
-import config from "@/lib/admin/config";
-import { MetadataRoute } from "next";
+import { menu_links } from '@/constants/menu';
+import config from '@/lib/admin/config';
+import { MetadataRoute } from 'next';
+
+export const dynamic = 'force-static';
 
 const baseUrl = config.env.app.url;
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const staticRoutes: MetadataRoute.Sitemap = menu_links?.map((link) => ({
-    url: [baseUrl, link?.href].join(""),
+export default function sitemap(): MetadataRoute.Sitemap {
+  const staticRoutes: MetadataRoute.Sitemap = menu_links?.map(link => ({
+    url: [baseUrl, link?.href].join(''),
     lastModified: new Date(),
-    changeFrequency: "monthly",
+    changeFrequency: 'monthly',
     priority: 1,
-    baseUrl: baseUrl,
+    baseUrl: baseUrl
   }));
 
   // Rutas dinámicas de blog (ejemplo con API)
