@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: scn-portfolio
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_APP_URL
+        sync: false # Se configura manualmente en el dashboard
+      - key: RESEND_API_KEY
+        sync: false # Se configura manualmente en el dashboard
